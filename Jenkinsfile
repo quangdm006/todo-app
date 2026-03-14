@@ -5,6 +5,7 @@ pipeline {
     IMAGE_BACKEND = "todo-backend"
     IMAGE_FRONTEND = "todo-frontend"
     REGISTRY       = "docker.io/quangdm006"
+    KUBECONFIG     = "/var/jenkins_home/.kube/config"
   }
 
   stages {
