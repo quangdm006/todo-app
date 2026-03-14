@@ -10,5 +10,3 @@ dist/
 # Môi trường
 .env
 
-# K8s secret 
-k8s/secret.yaml
