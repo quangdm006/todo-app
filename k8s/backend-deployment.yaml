@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: todo-backend:latest
+          image: quangdm006/todo-backend:latest
           ports:
             - containerPort: 8000
           env:

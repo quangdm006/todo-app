@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: todo-frontend:latest
+          image: quangdm006/todo-frontend:latest
           ports:
             - containerPort: 3000
